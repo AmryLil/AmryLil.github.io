@@ -1,0 +1,383 @@
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #f2f2f2;
+  }
+
+
+
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.gmbr{
+    max-width: 700px;
+    min-width: 650px;
+    width: 650px;
+    height: 1050px;
+    border-radius: 20px;
+    margin: 10px;
+    display: block;
+      
+}
+
+.garis{
+  margin-top: 34px;
+  width: 150px;
+  height: 7px;
+  border-radius: 20px;
+  background-color: darkgray;
+  margin-left: 243px;
+}
+
+#contact{
+    padding: 18px;
+    margin: 10px;
+    max-height: 650px;
+    min-height: 500px;
+    height: 620px;
+    width: 400px;
+    min-width: 250px;
+    max-width: 400px;
+    background-color: hwb(227 92% 5%);
+    border-radius: 20px;
+}
+
+.nama{
+  display: block;
+}
+.email{
+  display: block;
+}
+
+main{
+  margin-bottom: 100px;
+}
+
+.konten{
+  display: block;
+  align-items: center;
+  margin-left: 120px;
+  font-size: medium;
+}
+
+.orang{
+  margin-top: 30px;
+  display: flex;
+
+}
+.nm{
+  margin: 10px;
+  margin-top: 17px
+}
+
+#gambar{
+    height:auto;
+    max-width: 82%;
+    min-width: 80%;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px black;
+
+}
+.icn{
+  width:70px;
+  height:70px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.icn img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(50%);
+  box-shadow: 0px 0px 5px black;
+  margin-bottom: 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 12px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .teks{
+    width: 500px;
+    font-weight: bold;
+  }
+
+  .no{
+    display: flex;
+    margin-top: 30px;
+  }
+  .rounded-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hwb(227 92% 5%);
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgrey;
+  }
+
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .list2 {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    margin-top: 16px;
+    width: 400px;
+    height: 100px;
+  }
+
+  .data{
+    color: darkgray;
+    margin-bottom: 40px;
+  }
+  .isi{
+    margin-left: 45px;
+  }
+
+  #our{
+    display: flex;
+    width:100%;
+    height: 200px;
+    background-color: hwb(227 92% 5%);
+    font-size: xx-large;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #lokasi{
+    margin: 0;
+    height: 800px;
+  }
+  .list_set{
+    display: flex;
+    width: 340px;
+    height: 150px;
+    padding: 25px 0px;
+  }
+
+  .rounded-item1{
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hwb(227 92% 5%);
+    display: flex;
+    margin-right: 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dimgrey;
+  }
+
+  .list_tempat{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+
+  }
+  .text_item{
+    width: 230px;
+    margin-right: 100px;
+  
+  }
+
+ .garis2{
+    margin-top: 34px;
+    width: 150px;
+    height: 7px;
+    border-radius: 20px;
+    background-color: darkgray;
+    margin-left: 40.5%;
+    margin-right: 49.5%;
+  }
+
+  .jdl{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .text_item p{
+    color: darkgray;
+    height: 100px;
+  }
+  p{
+    color:darkgray
+  }
+
+  .nama{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px 123px 10px 10px;
+    border-color:darkgray;
+    height: 32px;
+    border-radius: 5px;
+  }
+  .email{
+    border-color:darkgray;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px 123px 10px 10px;
+    height: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .ktk{
+    padding: 20px 50px;
+  }
+  .send{
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size:large;
+    margin-top: 20px;
+    padding: 8px 122px;
+    background-color: #333;
+    border-radius: 5px;
+    height: 54px;
+    
+  }
+  
+  select{
+    margin-top: 10px;
+    width: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline;
+    border-radius: 5px;
+    border-color: darkgray;
+    height: 57px;
+    margin-bottom: 45px;
+  }
+  #pilih{
+    padding: 10px 90px 10px 10px;
+    border-radius: 5px 5px;
+    border-color: darkgray;
+    height: 32px;
+    margin-bottom: 20px;
+    color: dimgray;
+  }
+
+  label{
+    font-weight: bold;
+  }
+
+  option{
+    color: darkgray;
+  }
+.closing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cls_tx{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.call{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  background-color: #333;
+  width: 220px;
+  height: 38px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.call:hover{
+  background-color: gray;
+}
+.call:active{
+  background-color:black;
+}
+
+.line{
+  width: 100%;
+  height: 3px;
+  background-color: darkgray;
+  margin-bottom: 100px;
+}
+.closing_teks{
+  text-align: center;
+  width: 500px;
+  height: 100px;
+}
+
+.teks_wisata{
+  width: 230px;
+  height: 120px;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family:Arial;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background-color: darkgray;
+  clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+}
+
+.last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  font-size: xx-large;
+  font-weight: bold;
+  color: dimgray;
+}
